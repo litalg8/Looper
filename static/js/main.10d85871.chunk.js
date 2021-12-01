@@ -1,0 +1,2 @@
+(this["webpackJsonplooper-app"]=this["webpackJsonplooper-app"]||[]).push([[0],{9:function(e,p,t){"use strict";t.r(p);t(1);var r=t(3),n=t.n(r),o=t(0);var s=function(){return Object(o.jsx)("div",{className:"App",children:"hello this is looper app"})};n.a.render(Object(o.jsx)(o.Fragment,{children:Object(o.jsx)(s,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.10d85871.chunk.js.map
