@@ -1,0 +1,13 @@
+.sqr {
+    font-family:modernSans;
+    background-color: $clr3;
+    color:$clr6;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+    cursor: pointer;
+    padding: 2rem;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
