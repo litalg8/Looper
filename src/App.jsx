@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './assets/styles/global.scss';
-import {loopSamples} from './loopSamples'
 import SoundBoard from './cmps/SoundBoard';
-
+import AppHeader from './cmps/AppHeader'
 
 function App(){
     return(
-        <section className="app">
-            <SoundBoard loopSamples={loopSamples}/>
+        <section className="app container">
+            <AppHeader/>
+            <SoundBoard />
         </section>
     )
 }

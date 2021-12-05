@@ -16,6 +16,12 @@
     &.align-center {
         align-items: center;
     }
+    &.justify-space {
+        justify-content: space-between ;
+    }
+    &.justify-evenly {
+        justify-content: space-evenly ;
+    }
 }
 
 // Media helpers
@@ -28,4 +34,12 @@
 }
 .portrait-ratio {
     @include aspect-ratio(9, 16);
+}
+
+
+.row {
+    width: 100%;
+    @include for-mobile-layout {
+        width:auto; 
+    }
 }
