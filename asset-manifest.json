@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Looper/static/css/main.2695403e.chunk.css",
+    "main.css": "/Looper/static/css/main.613fa9f2.chunk.css",
     "main.js": "/Looper/static/js/main.533ecad6.chunk.js",
     "main.js.map": "/Looper/static/js/main.533ecad6.chunk.js.map",
     "runtime-main.js": "/Looper/static/js/runtime-main.c34071f9.js",
@@ -8,14 +8,14 @@
     "static/js/2.e7f263e0.chunk.js": "/Looper/static/js/2.e7f263e0.chunk.js",
     "static/js/2.e7f263e0.chunk.js.map": "/Looper/static/js/2.e7f263e0.chunk.js.map",
     "index.html": "/Looper/index.html",
-    "static/css/main.2695403e.chunk.css.map": "/Looper/static/css/main.2695403e.chunk.css.map",
+    "static/css/main.613fa9f2.chunk.css.map": "/Looper/static/css/main.613fa9f2.chunk.css.map",
     "static/js/2.e7f263e0.chunk.js.LICENSE.txt": "/Looper/static/js/2.e7f263e0.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/Looper/static/media/Pergola.86244b81.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.c34071f9.js",
     "static/js/2.e7f263e0.chunk.js",
-    "static/css/main.2695403e.chunk.css",
+    "static/css/main.613fa9f2.chunk.css",
     "static/js/main.533ecad6.chunk.js"
   ]
 }
