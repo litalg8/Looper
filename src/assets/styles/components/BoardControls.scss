@@ -1,0 +1,19 @@
+header {
+    background-color: #e4e8f1;
+    .header-container {
+        padding: 0.4rem 0;
+        .main-nav {
+            margin-top: 0.5rem;
+            .logo-container {
+                font-family: pergola;
+                font-size: 3.2rem;
+                font-weight: 800;
+            }
+            .nav-item {
+                &:not(:last-child) {
+                    border-right: #ffffff solid 1px;
+                }
+            }
+        }
+    }
+}

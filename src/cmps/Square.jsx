@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Square = ({ song, toggle }) => {
-    //trying to add styling with forEach maybe
-
     return (
         <li className="square">
             <div className="sqr" onClick={toggle}>

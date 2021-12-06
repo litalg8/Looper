@@ -7,14 +7,16 @@ const SoundBoard = ({ urls }) => {
     const [songs, toggle, playAllSongs, stopAllSongs] = useLoopSampler(urls)
 
     return (
-        <ul className="square-container" >
-            <BoardControls playAllSongs={playAllSongs} stopAllSongs={stopAllSongs} />
+        <section className="sound-board">
+        <BoardControls playAllSongs={playAllSongs} stopAllSongs={stopAllSongs} />
+        <div className="soundboard-container container" >
             {songs.map((song, i) => {
                 return (
                     <Square key={i} song={song} toggle={toggle(i)} />
                 )
             })}
-        </ul>
+        </div>
+        </section>
     )
 }
 

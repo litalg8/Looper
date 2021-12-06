@@ -2,10 +2,19 @@ import React from 'react';
 
 const BoardControls = ({ playAllSongs, stopAllSongs }) => {
     return (
-        <div>
-            <button onClick={playAllSongs}>Play All</button>
-            <button onClick={stopAllSongs}>Stop</button>
-        </div>
+        <header className="app-header flex justify-center">
+            <div className="header-container row">
+                <nav className="main-nav container flex justify-space align-center">
+                    <div className="logo-container">grooveo</div>
+                    <ul className="route-nav">
+                        <li className="item nav-item"> <button onClick={playAllSongs}>Play All</button>
+                        </li>
+                        <li className="item nav-item"><button onClick={stopAllSongs}>Stop</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
     )
 }
 

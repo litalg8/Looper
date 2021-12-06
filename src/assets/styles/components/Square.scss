@@ -1,21 +1,26 @@
 .sqr {
-    font-family:modernSans;
-    background-color: $clr3;
-    color:$clr6;
+    font-family: modernSans;
+    background-color: $clr1;
+    color: $clr6;
     font-size: 2rem;
-    width:150px;
-    height:150px; 
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    text-transform: uppercase;
+    text-align: center;
     margin: 0;
     cursor: pointer;
     padding: 2rem;
+    transition: background-color 2s;
+
+    &:hover {
+        background-color: #eb9a97;
+    }
     &:not(:last-child) {
         margin-right: 10px;
     }
 
-    .sqr-icon{
-        font-family:breakdance;  
+    .sqr-icon {
+        font-family: breakdance;
         font-size: 6rem;
     }
 }

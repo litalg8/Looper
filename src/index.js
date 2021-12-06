@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import './assets/styles/global.scss';
+import SoundBoard from './cmps/SoundBoard';
 
 ReactDOM.render(
-    <App />,
+  <SoundBoard />,
   document.getElementById('root')
 );
 

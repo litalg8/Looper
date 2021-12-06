@@ -1,5 +1,5 @@
 .container {
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto;
     @include for-mobile-layout{
         width:350px; 
@@ -9,8 +9,3 @@
 
 }
 
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-}
