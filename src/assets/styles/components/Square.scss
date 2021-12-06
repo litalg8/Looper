@@ -3,11 +3,19 @@
     background-color: $clr3;
     color:$clr6;
     font-size: 2rem;
+    width:150px;
+    height:150px; 
+    border-radius: 50%;
     text-transform: uppercase;
     margin: 0;
     cursor: pointer;
     padding: 2rem;
     &:not(:last-child) {
         margin-right: 10px;
+    }
+
+    .sqr-icon{
+        font-family:breakdance;  
+        font-size: 6rem;
     }
 }

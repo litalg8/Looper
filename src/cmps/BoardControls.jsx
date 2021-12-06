@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BoardControls = () => {
+const BoardControls = ({ playAllSongs, stopAllSongs }) => {
     return (
         <div>
-            <button>Play All</button>
-            <button>Stop</button>
+            <button onClick={playAllSongs}>Play All</button>
+            <button onClick={stopAllSongs}>Stop</button>
         </div>
     )
 }
