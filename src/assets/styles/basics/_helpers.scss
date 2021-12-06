@@ -24,3 +24,10 @@
     }
 }
 
+
+.row {
+    width: 100%;
+    @include for-mobile-layout {
+        width:auto; 
+    }
+}
