@@ -6,7 +6,7 @@ const BoardControls = ({ playAllSongs, stopAllSongs }) => {
             <div className="header-container row">
                 <nav className="main-nav container flex justify-space align-center">
                     <div className="logo-container">grooveo</div>
-                    <ul className="route-nav">
+                    <ul className="controls-nav">
                         <li className="item nav-item"> <button onClick={playAllSongs}>Play All</button>
                         </li>
                         <li className="item nav-item"><button onClick={stopAllSongs}>Stop</button></li>
